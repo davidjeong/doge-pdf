@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		532E91281CC258470048EB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E91271CC258470048EB42 /* AppDelegate.swift */; };
+		532E912A1CC258470048EB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E91291CC258470048EB42 /* ViewController.swift */; };
+		532E912C1CC258470048EB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532E912B1CC258470048EB42 /* Assets.xcassets */; };
+		532E912F1CC258470048EB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532E912D1CC258470048EB42 /* Main.storyboard */; };
+		532E913A1CC258470048EB42 /* DogePDFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E91391CC258470048EB42 /* DogePDFTests.swift */; };
+		532E91451CC258470048EB42 /* DogePDFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E91441CC258470048EB42 /* DogePDFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		532E91361CC258470048EB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532E911C1CC258470048EB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532E91231CC258470048EB42;
+			remoteInfo = DogePDF;
+		};
+		532E91411CC258470048EB42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532E911C1CC258470048EB42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532E91231CC258470048EB42;
+			remoteInfo = DogePDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		532E91241CC258470048EB42 /* DogePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		532E91271CC258470048EB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		532E91291CC258470048EB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		532E912B1CC258470048EB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		532E912E1CC258470048EB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		532E91301CC258470048EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532E91351CC258470048EB42 /* DogePDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogePDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		532E91391CC258470048EB42 /* DogePDFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogePDFTests.swift; sourceTree = "<group>"; };
+		532E913B1CC258470048EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532E91401CC258470048EB42 /* DogePDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogePDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		532E91441CC258470048EB42 /* DogePDFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogePDFUITests.swift; sourceTree = "<group>"; };
+		532E91461CC258470048EB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		532E91211CC258470048EB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532E91321CC258470048EB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532E913D1CC258470048EB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		532E911B1CC258470048EB42 = {
+			isa = PBXGroup;
+			children = (
+				532E91261CC258470048EB42 /* DogePDF */,
+				532E91381CC258470048EB42 /* DogePDFTests */,
+				532E91431CC258470048EB42 /* DogePDFUITests */,
+				532E91251CC258470048EB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		532E91251CC258470048EB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				532E91241CC258470048EB42 /* DogePDF.app */,
+				532E91351CC258470048EB42 /* DogePDFTests.xctest */,
+				532E91401CC258470048EB42 /* DogePDFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		532E91261CC258470048EB42 /* DogePDF */ = {
+			isa = PBXGroup;
+			children = (
+				532E91271CC258470048EB42 /* AppDelegate.swift */,
+				532E91291CC258470048EB42 /* ViewController.swift */,
+				532E912B1CC258470048EB42 /* Assets.xcassets */,
+				532E912D1CC258470048EB42 /* Main.storyboard */,
+				532E91301CC258470048EB42 /* Info.plist */,
+			);
+			path = DogePDF;
+			sourceTree = "<group>";
+		};
+		532E91381CC258470048EB42 /* DogePDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				532E91391CC258470048EB42 /* DogePDFTests.swift */,
+				532E913B1CC258470048EB42 /* Info.plist */,
+			);
+			path = DogePDFTests;
+			sourceTree = "<group>";
+		};
+		532E91431CC258470048EB42 /* DogePDFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				532E91441CC258470048EB42 /* DogePDFUITests.swift */,
+				532E91461CC258470048EB42 /* Info.plist */,
+			);
+			path = DogePDFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		532E91231CC258470048EB42 /* DogePDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532E91491CC258470048EB42 /* Build configuration list for PBXNativeTarget "DogePDF" */;
+			buildPhases = (
+				532E91201CC258470048EB42 /* Sources */,
+				532E91211CC258470048EB42 /* Frameworks */,
+				532E91221CC258470048EB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogePDF;
+			productName = DogePDF;
+			productReference = 532E91241CC258470048EB42 /* DogePDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		532E91341CC258470048EB42 /* DogePDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532E914C1CC258470048EB42 /* Build configuration list for PBXNativeTarget "DogePDFTests" */;
+			buildPhases = (
+				532E91311CC258470048EB42 /* Sources */,
+				532E91321CC258470048EB42 /* Frameworks */,
+				532E91331CC258470048EB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				532E91371CC258470048EB42 /* PBXTargetDependency */,
+			);
+			name = DogePDFTests;
+			productName = DogePDFTests;
+			productReference = 532E91351CC258470048EB42 /* DogePDFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		532E913F1CC258470048EB42 /* DogePDFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532E914F1CC258470048EB42 /* Build configuration list for PBXNativeTarget "DogePDFUITests" */;
+			buildPhases = (
+				532E913C1CC258470048EB42 /* Sources */,
+				532E913D1CC258470048EB42 /* Frameworks */,
+				532E913E1CC258470048EB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				532E91421CC258470048EB42 /* PBXTargetDependency */,
+			);
+			name = DogePDFUITests;
+			productName = DogePDFUITests;
+			productReference = 532E91401CC258470048EB42 /* DogePDFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		532E911C1CC258470048EB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "David Jeong";
+				TargetAttributes = {
+					532E91231CC258470048EB42 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					532E91341CC258470048EB42 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 532E91231CC258470048EB42;
+					};
+					532E913F1CC258470048EB42 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 532E91231CC258470048EB42;
+					};
+				};
+			};
+			buildConfigurationList = 532E911F1CC258470048EB42 /* Build configuration list for PBXProject "DogePDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 532E911B1CC258470048EB42;
+			productRefGroup = 532E91251CC258470048EB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				532E91231CC258470048EB42 /* DogePDF */,
+				532E91341CC258470048EB42 /* DogePDFTests */,
+				532E913F1CC258470048EB42 /* DogePDFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		532E91221CC258470048EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532E912C1CC258470048EB42 /* Assets.xcassets in Resources */,
+				532E912F1CC258470048EB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532E91331CC258470048EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532E913E1CC258470048EB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		532E91201CC258470048EB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532E912A1CC258470048EB42 /* ViewController.swift in Sources */,
+				532E91281CC258470048EB42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532E91311CC258470048EB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532E913A1CC258470048EB42 /* DogePDFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532E913C1CC258470048EB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532E91451CC258470048EB42 /* DogePDFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		532E91371CC258470048EB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532E91231CC258470048EB42 /* DogePDF */;
+			targetProxy = 532E91361CC258470048EB42 /* PBXContainerItemProxy */;
+		};
+		532E91421CC258470048EB42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532E91231CC258470048EB42 /* DogePDF */;
+			targetProxy = 532E91411CC258470048EB42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		532E912D1CC258470048EB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532E912E1CC258470048EB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		532E91471CC258470048EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		532E91481CC258470048EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		532E914A1CC258470048EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DogePDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidjeong.DogePDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		532E914B1CC258470048EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DogePDF/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidjeong.DogePDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		532E914D1CC258470048EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DogePDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidjeong.DogePDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogePDF.app/Contents/MacOS/DogePDF";
+			};
+			name = Debug;
+		};
+		532E914E1CC258470048EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DogePDFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidjeong.DogePDFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogePDF.app/Contents/MacOS/DogePDF";
+			};
+			name = Release;
+		};
+		532E91501CC258470048EB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DogePDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidjeong.DogePDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DogePDF;
+			};
+			name = Debug;
+		};
+		532E91511CC258470048EB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DogePDFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidjeong.DogePDFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DogePDF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		532E911F1CC258470048EB42 /* Build configuration list for PBXProject "DogePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532E91471CC258470048EB42 /* Debug */,
+				532E91481CC258470048EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532E91491CC258470048EB42 /* Build configuration list for PBXNativeTarget "DogePDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532E914A1CC258470048EB42 /* Debug */,
+				532E914B1CC258470048EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		532E914C1CC258470048EB42 /* Build configuration list for PBXNativeTarget "DogePDFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532E914D1CC258470048EB42 /* Debug */,
+				532E914E1CC258470048EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		532E914F1CC258470048EB42 /* Build configuration list for PBXNativeTarget "DogePDFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532E91501CC258470048EB42 /* Debug */,
+				532E91511CC258470048EB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 532E911C1CC258470048EB42 /* Project object */;
+}
